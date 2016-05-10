@@ -272,7 +272,7 @@ static NSInteger const kWMUndefinedIndex = -1;
     _memCache = [[NSCache alloc] init];
     _initializedIndex = kWMUndefinedIndex;
     
-    self.automaticallyAdjustsScrollViewInsets = NO;
+//    self.automaticallyAdjustsScrollViewInsets = NO;
     self.preloadPolicy = WMPageControllerPreloadPolicyNever;
     self.cachePolicy = WMPageControllerCachePolicyNoLimit;
     
